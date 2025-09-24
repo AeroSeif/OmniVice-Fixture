@@ -30,9 +30,7 @@ With this setup, offline programs can be validated for:
 ### OmniVice in Action – Example Setup  
 ![Bottle Clamped](Media/Example-Bottle-Clamped.png)
 
-### Live Assembly Motion  
-> Watch the vise clamp and release in SOLIDWORKS® – great for demonstrating part accessibility and clearance.  
-▶ [Assembly in Action (MP4)](Media/Assembly%20in%20Action.mp4)
+
 
 ---
 
@@ -71,7 +69,7 @@ With this setup, offline programs can be validated for:
    Use this setup as your offline environment to plan probe paths and avoid collisions.  
 
 4. **3D Print Brackets** *(Optional)*  
-   Export `Bracket.SLDPRT` as STL, print 3× (or more), and clamp them onto the real vise for physical setups.  
+   Export `Bracket.SLDPRT` as STL, print 6×, and clamp them onto the real vise for physical setups.  
 
 ---
 
