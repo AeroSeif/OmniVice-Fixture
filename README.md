@@ -1,67 +1,87 @@
-# OmniVice – Modular 3D-Printed Clamping Fixture
+# OmniVice – Modular 3D-Printed Clamping Fixture  
 
-A parametric **3D-printed modular fixture** designed to act as an *OmniVice* for inspection and prototyping setups.  
-The fixture uses **three identical printed brackets**, which, when clamped, can grip parts of almost any geometry — from shafts to irregular profiles.
-
----
-
-## Purpose
-
-In precision manufacturing, flexible fixturing saves time and eliminates the need to design a unique fixture for every part.  
-This project demonstrates how a simple 3D-printed solution can:
-- Hold round or irregular parts securely
-- Support inspection tasks and offline programming
-- Speed up setup time and reduce waste (Lean principle: **setup time reduction**)
+A parametric **3D-printed modular bracket system** designed to act as an *OmniVice* for inspection setups.  
+The goal: **simulate real-world fixturing in offline mode** to plan CMM probe paths, avoid collisions, and achieve right-first-time inspection runs.
 
 ---
 
-## Features
+## Purpose  
 
-- ✅ **Parametric design** – easily scale bracket size for larger or smaller parts  
-- ✅ **Quick setup** – just 3D-print, clamp, and start inspecting  
-- ✅ **Reusable** – same brackets work for multiple parts and configurations  
-- ✅ **Cost-effective** – minimal material and fast print time  
+When programming in offline mode, a realistic setup is key to avoiding collisions and wasted machine time.  
+This project provides a **digital twin** of an inspection fixture, including:
+- **3D-printed modular brackets** – can be arranged in sets of three or more to grip round or irregular parts  
+- **Fully modeled vise body and clamp** – matches the actual shop-floor vise for accurate simulation  
+- **Tangent mates and realistic positioning** – lets you create a true-to-life setup before moving to the CMM  
 
----
+With this setup, offline programs can be validated for:
+- Part accessibility  
+- Probe clearance  
+- Interference detection  
 
-## Screenshots
-
-**OmniVice Setup – Clamping Example**
-![OmniVice Assembly](Media/OmniVice_Assembly.png)
-
-**Single Bracket Design**
-![Bracket Close-Up](Media/Bracket_CloseUp.png)
+…before ever touching the machine.
 
 ---
 
-## CAD Files Structure
+## Features  
 
-| Path / File              | Description                  |
-|------------------------|------------------------------|
-| **OmniVice.SLDASM**    | Main assembly file           |
-| **Bracket.SLDPRT**     | Parametric 3D-printed bracket |
-| **Clamp.SLDPRT**       | Fixture clamp                |
-| **Clamp Handle.SLDPRT**| Handle for tightening         |
-| **Vice Body.SLDPRT**   | Base body of the vice         |
-| **Bolt.SLDPRT**        | Fasteners                    |
-| **Sample Part.SLDPRT** | Example part (bottle)        |
+- ✅ **Parametric design** – scale bracket size for different parts  
+- ✅ **Offline-ready** – mate parts and fixtures exactly as you would on the shop floor  
+- ✅ **3D-printable** – produce brackets quickly for real-world use  
+- ✅ **Collision-safe** – run interference checks before the first live inspection  
 
 ---
 
-## How to Use
+## Screenshots  
 
-1. **Open Assembly:**  
-   `OmniVice.SLDASM`
+**OmniVice Setup – Example with Bottle**  
+![OmniVice Assembly](Media/OmniVice_Assembly.png)  
 
-2. **3D Print:**  
-   Export `Bracket.SLDPRT` as STL and print 3× (or more).
-
-3. **Assemble & Clamp:**  
-   Place brackets in the vice and clamp around the part to hold securely.
+**Bracket Close-Up**  
+![Bracket Close-Up](Media/Bracket_CloseUp.png)  
 
 ---
 
-## License
+## CAD Files Structure  
+
+| Path / File              | Description                       |
+|------------------------|-----------------------------------|
+| **OmniVice.SLDASM**    | Main assembly file (vise + brackets) |
+| **Vice Body.SLDPRT**   | Base vise model                   |
+| **Clamp.SLDPRT**       | Clamp component                   |
+| **Clamp Handle.SLDPRT**| Clamp handle                      |
+| **Bracket.SLDPRT**     | Parametric 3D-printed bracket      |
+| **Bolt.SLDPRT**        | Fasteners                         |
+| **Sample Part.SLDPRT** | Example inspection part (bottle)   |
+
+---
+
+## How to Use  
+
+1. **Open Assembly**  
+   Load `OmniVice.SLDASM` in SOLIDWORKS®.  
+
+2. **Create Mates**  
+   Add tangent mates between brackets and the part to position it realistically.  
+
+3. **Program Offline**  
+   With the setup complete, create your CMM program in offline mode.  
+
+4. **3D Print Brackets** *(Optional)*  
+   Export `Bracket.SLDPRT` as STL, print 3×, and use them for real-world setups.  
+
+---
+
+## Relevance to CMM Programming  
+
+This project supports **Lean Six Sigma principles** by reducing non-value-added time during prove-out.  
+It allows engineers to:
+- Verify setups virtually  
+- Plan probe paths efficiently  
+- Minimize trial-and-error on the shop floor  
+
+---
+
+## License  
 
 Released under the **MIT License**.  
 Forks, adaptations, and improvements are welcome.
