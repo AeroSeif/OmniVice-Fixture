@@ -22,22 +22,26 @@ With this setup, offline programs can be validated for:
 
 ---
 
+## Visual Overview  
+
+### Bracket Close-Up  
+![Bracket Close-Up](Media/Bracket.png)
+
+### OmniVice in Action – Example Setup  
+![Bottle Clamped](Media/Example-Bottle-Clamped.png)
+
+### Live Assembly Motion  
+> Watch the vise clamp and release in SOLIDWORKS® – great for demonstrating part accessibility and clearance.  
+▶ [Assembly in Action (MP4)](Media/Assembly%20in%20Action.mp4)
+
+---
+
 ## Features  
 
 - ✅ **Parametric design** – scale bracket size for different parts  
 - ✅ **Offline-ready** – mate parts and fixtures exactly as you would on the shop floor  
 - ✅ **3D-printable** – produce brackets quickly for real-world use  
 - ✅ **Collision-safe** – run interference checks before the first live inspection  
-
----
-
-## Screenshots  
-
-**OmniVice Setup – Example with Bottle**  
-![OmniVice Assembly](Media/OmniVice_Assembly.png)  
-
-**Bracket Close-Up**  
-![Bracket Close-Up](Media/Bracket_CloseUp.png)  
 
 ---
 
