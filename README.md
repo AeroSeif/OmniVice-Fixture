@@ -61,17 +61,17 @@ With this setup, offline programs can be validated for:
 
 ## How to Use  
 
-1. **Open Assembly**  
+1. **Open the assembly**  
    Load `OmniVice.SLDASM` in SOLIDWORKS®.  
 
-2. **Create Mates**  
-   Add tangent mates between brackets and the part to position it realistically.  
+2. **Position your part**  
+   Add tangent and coincident mates between the part and the brackets for a realistic setup.  
 
-3. **Program Offline**  
-   With the setup complete, create your CMM program in offline mode.  
+3. **Plan your CMM program**  
+   Use this setup as your offline environment to plan probe paths and avoid collisions.  
 
 4. **3D Print Brackets** *(Optional)*  
-   Export `Bracket.SLDPRT` as STL, print 3×, and use them for real-world setups.  
+   Export `Bracket.SLDPRT` as STL, print 3× (or more), and clamp them onto the real vise for physical setups.  
 
 ---
 
@@ -82,6 +82,7 @@ It allows engineers to:
 - Verify setups virtually  
 - Plan probe paths efficiently  
 - Minimize trial-and-error on the shop floor  
+- **Standardize fixturing** — the *OmniVice* eliminates the need to design unique fixtures for every new part, saving engineering time and costs while allowing one setup to work with multiple part profiles.
 
 ---
 
