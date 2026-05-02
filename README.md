@@ -84,7 +84,3 @@ It allows engineers to:
 
 ---
 
-## License  
-
-Released under the **MIT License**.  
-Forks, adaptations, and improvements are welcome.
