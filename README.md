@@ -36,10 +36,10 @@ With this setup, offline programs can be validated for:
 
 ## Features  
 
-- ✅ **Parametric design** – scale bracket size for different parts  
-- ✅ **Offline-ready** – mate parts and fixtures exactly as you would on the shop floor  
-- ✅ **3D-printable** – produce brackets quickly for real-world use  
-- ✅ **Collision-safe** – run interference checks before the first live inspection  
+-  **Parametric design** – scale bracket size for different parts  
+-  **Offline-ready** – mate parts and fixtures exactly as you would on the shop floor  
+-  **3D-printable** – produce brackets quickly for real-world use  
+-  **Collision-safe** – run interference checks before the first live inspection  
 
 ---
 
