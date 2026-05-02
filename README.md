@@ -1,4 +1,4 @@
-# OmniVice – Modular 3D-Printed Clamping Fixture  
+# OmniVice  Modular 3D-Printed Clamping Fixture  
 
 A parametric **3D-printed modular bracket system** designed to act as an *OmniVice* for inspection setups.  
 The goal: **simulate real-world fixturing in offline mode** to plan CMM probe paths, avoid collisions, and achieve right-first-time inspection runs.
@@ -80,7 +80,7 @@ It allows engineers to:
 - Verify setups virtually  
 - Plan probe paths efficiently  
 - Minimize trial-and-error on the shop floor  
-- **Standardize fixturing** — the *OmniVice* eliminates the need to design unique fixtures for every new part, saving engineering time and costs while allowing one setup to work with multiple part profiles.
+- **Standardize fixturing**  the *OmniVice* eliminates the need to design unique fixtures for every new part, saving engineering time and costs while allowing one setup to work with multiple part profiles.
 
 ---
 
