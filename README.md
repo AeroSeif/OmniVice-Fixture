@@ -47,7 +47,7 @@ With this setup, offline programs can be validated for:
 
 | Path / File              | Description                       |
 |------------------------|-----------------------------------|
-| **OmniVice.SLDASM**    | Main assembly file (vise + brackets) |
+| **OmniVice.SLDASM**    | Main assembly file (vice + brackets) |
 | **Vice Body.SLDPRT**   | Base vise model                   |
 | **Clamp.SLDPRT**       | Clamp component                   |
 | **Clamp Handle.SLDPRT**| Clamp handle                      |
